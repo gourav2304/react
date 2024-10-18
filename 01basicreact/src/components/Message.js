@@ -4,13 +4,13 @@ class Message extends Component {
     constructor(){
         super()
         this.state ={
-            message:"Welcome visitor"
+            template:"Welcome visitor"
         }
         
     }
     changeMessage(){
         this.setState({
-            message: 'Thank you for subscribing'
+            template: 'Thank you for subscribing'
         })
     }
     
@@ -19,7 +19,7 @@ class Message extends Component {
       return(
             <div>
                 <h1>
-            {this.state.message}
+            {this.state.template}
             </h1>
             <button onClick={()=> this.changeMessage()}>Subscribe</button>
             </div>
