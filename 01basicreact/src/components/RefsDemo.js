@@ -15,7 +15,7 @@ import React, { Component } from 'react'
         // if(this.cbRef){
         //     this.cbRef.focus()    // comment out code is old approach 
         // }
-    }
+      }
     clickHandler = () =>{
         alert(this.inputRef.current.value)
         // alert(this.cbRef.value)
