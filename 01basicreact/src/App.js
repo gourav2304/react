@@ -24,12 +24,44 @@ import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components2/ClickCounter';
 import HoverCounter from './components2/HoverCounter';
+import ClickCounter2 from './components2/ClickCounter2';
+import HoverCounter2 from './components2/HoverCounter2';
+import Counter2 from './components2/Counter2';
+import ComponentC from './components2/ComponentC';
+import { UserProvider} from './components2/userContext'
+import PostList from './components2/PostList';
+import PostForm from './components2/PostForm';
+import HookCounter from './reactHooks/HookCounter';
+import HookCountertwo from './reactHooks/HookCountertwo';
+import HookCounterthree from './reactHooks/HookCounterthree';
+import HookCounterFour from './reactHooks/HookCounterFour';
 class App extends Component {
   render(){
     return (
       <div className='App'>
-        <HoverCounter/>
-         <ClickCounter/>
+        <HookCounterFour/>
+        {/* <HookCounterthree/> */}
+        {/* <HookCountertwo/> */}
+        {/* <PostForm/> */}
+        {/* <PostList /> */}
+        {/* <UserProvider value='Gourav'>
+          <ComponentC/>
+        </UserProvider> */}
+        {/* <Counter2 >
+        {(count, incrementCount)=> (
+        <ClickCounter2 count={count} incrementCount={incrementCount}/>
+        )}
+        </Counter2> */}
+        {/* <Counter2> 
+        {(count, incrementCount)=> (
+        <HoverCounter2 count={count} incrementCount={incrementCount}/>
+        )}
+        </Counter2> */}
+        {/* <HoverCounter2/>
+        <ClickCounter2/>
+        <User render={(isLoggedIn )=>isLoggedIn ? 'Gourav': 'Guest'}/> */}
+        {/* <HoverCounter name='Gourav'/> */}
+         {/* <ClickCounter name='Gourav'/> */}
         {/* <ErrorBoundary>
         <Hero heroname='Batman'/>
         </ErrorBoundary>
