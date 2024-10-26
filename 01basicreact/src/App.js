@@ -35,11 +35,21 @@ import HookCounter from './reactHooks/HookCounter';
 import HookCountertwo from './reactHooks/HookCountertwo';
 import HookCounterthree from './reactHooks/HookCounterthree';
 import HookCounterFour from './reactHooks/HookCounterFour';
+import HookCounterOneUE from './reactHooks/HookCounterOneUE';
+import HookMouse from './reactHooks/HookMouse';
+import MouseContainer from './reactHooks/MouseContainer';
+import IntervalHookCounter from './reactHooks/IntervalHookCounter';
+import DataFetching from './reactHooks/DataFetching';
 class App extends Component {
   render(){
     return (
       <div className='App'>
-        <HookCounterFour/>
+        <DataFetching/>
+        {/* <IntervalHookCounter/> */}
+        {/* <MouseContainer/> */}
+        {/* <HookMouse/> */}
+        {/* <HookCounterOneUE/> */}
+        {/* <HookCounterFour/> */}
         {/* <HookCounterthree/> */}
         {/* <HookCountertwo/> */}
         {/* <PostForm/> */}
