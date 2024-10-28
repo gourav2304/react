@@ -8,7 +8,6 @@ function DataFetching() {
     const handleClick = ()=>{
         SetIdFromButtonClick(id)
     }
-
     useEffect(()=>{
         axios
         .get(`https://jsonplaceholder.typicode.com/posts/${id}`)
@@ -20,6 +19,7 @@ function DataFetching() {
             console.log(err)
         })
     },[idFromButtonClick])
+    
   return (
     <div>
         <input type='text' value={id} 

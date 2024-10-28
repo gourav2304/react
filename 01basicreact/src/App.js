@@ -40,11 +40,13 @@ import HookMouse from './reactHooks/HookMouse';
 import MouseContainer from './reactHooks/MouseContainer';
 import IntervalHookCounter from './reactHooks/IntervalHookCounter';
 import DataFetching from './reactHooks/DataFetching';
+
 class App extends Component {
   render(){
     return (
       <div className='App'>
-        <DataFetching/>
+       
+        {/* <DataFetching/> */}
         {/* <IntervalHookCounter/> */}
         {/* <MouseContainer/> */}
         {/* <HookMouse/> */}
