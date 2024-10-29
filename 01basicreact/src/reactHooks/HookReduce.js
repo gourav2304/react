@@ -26,7 +26,7 @@ function HookReduce() {
         <div>count - {count}</div>
         <button onClick={()=>dispatch('increment')}>Increment</button>
         <button onClick={()=>dispatch('decrement')}>Decrement</button>
-        <button onClick={()=>dispatch('reset')}>React</button>
+        <button onClick={()=>dispatch('reset')}>Reset</button>
     </div>
   )
 }
