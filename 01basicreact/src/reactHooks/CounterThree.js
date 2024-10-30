@@ -18,11 +18,11 @@ const reducer = (state,action)=>{
  
  function CounterThree() {
  const [count, dispatch] = useReducer(reducer,initialState)
- const [CounterTwo, dispatchTwo] = useReducer(reducer,initialState)
+ const [counterTwo, dispatchTwo] = useReducer(reducer,initialState)
    return (
      <div>
         <div>Count - {count}</div>
-        <div>Count - {CounterTwo}</div>
+        <div>Count - {counterTwo}</div>
         <button onClick={()=>dispatch('increment')}>Increment</button>
         <button onClick={()=>dispatch('increment')}>Decrement</button>
         <button onClick={()=>dispatch('reset')}>Reset</button>
