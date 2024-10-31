@@ -7,6 +7,8 @@ import CounterTwo from './reactHooks/CounterTwo';
 import CounterThree from './reactHooks/CounterThree';
 import DataFetchingOne from './reactHooks/DataFetchingOne';
 import DataFetchingTwo from './reactHooks/DataFetchingTwo';
+import Parentcomponent from './component3/Parentcomponent';
+import Counter from './component3/counter';
 
 
 export const userContext = React.createContext()
@@ -16,7 +18,9 @@ function App1() {
     
   return (
     <div className='App'>
-      <DataFetchingTwo/>
+      <Counter/>
+      {/* <Parentcomponent /> */}
+      {/* <DataFetchingTwo/> */}
       {/* <DataFetchingOne/> */}
         {/* <CounterThree/> */}
         {/* <CounterTwo/> */}
