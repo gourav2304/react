@@ -23,7 +23,7 @@ function App1() {
     
   return (
     <div className='App'>
-      <DocTitletwo/>
+      {/* <DocTitletwo/> */}
       {/* <UserfForm/> */}
       {/* <HookTimer/> */}
       {/* <ClassTimer/> */}
